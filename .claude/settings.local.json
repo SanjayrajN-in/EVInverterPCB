@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -iE '^\\\\\\(symbol \"\\(R|C|C_Polarized|D|D_Schottky|LED|Fuse|Q_NMOS|Q_NPN|CP|Ferrite_Bead\\)\"$')",
+      "Bash(python3 -)"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "kicad"
+  ]
+}
