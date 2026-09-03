@@ -12,4 +12,5 @@
 	(lib (name "2026-08-07_16-10-40") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/2026-08-07_16-10-40.kicad_sym") (options "") (descr ""))
 	(lib (name "TBA1-0511HI") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/TBA1-0511HI.kicad_sym") (options "") (descr ""))
 	(lib (name "TMS5700714APGEQQ1R") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/TMS5700714APGEQQ1R.kicad_sym") (options "") (descr ""))
+	(lib (name "TCAN1042HGVDRBRQ1") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/TCAN1042HGVDRBRQ1.kicad_sym") (options "") (descr ""))
 )

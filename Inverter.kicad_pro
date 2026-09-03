@@ -661,7 +661,7 @@
         "uuid": "557dbdfe-f200-4573-9e2e-e58e9c4cef92"
       }
     ],
-    "used_designators": "IC1-3,J1-9,L1-3,JP1-26,TP1-5,R1-11,D1-2,C1-27,PS1-2,#PWR1-83,U1-6",
+    "used_designators": "IC1-3,J1-9,R1-15,L1-3,D1-2,JP1-26,TP1-7,C1-35,PS1-2,#PWR1-98,U1-10",
     "variants": []
   },
   "sheets": [
@@ -684,6 +684,10 @@
     [
       "e218598a-e81e-44bd-b7ae-3b54f46c5d4a",
       "Power_SM"
+    ],
+    [
+      "a04ca611-88f8-4dd4-bd17-835b578a5d1e",
+      "Inverter_PowerStage"
     ]
   ],
   "text_variables": {},

@@ -118,6 +118,52 @@
 		)
 	)
 	(sheet
+		(at 34.544 76.454)
+		(size 51.816 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a04ca611-88f8-4dd4-bd17-835b578a5d1e")
+		(property "Sheetname" "Inverter_PowerStage"
+			(at 34.544 75.7424 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Inverter_PowerStage.kicad_sch"
+			(at 34.544 104.9786 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Inverter"
+				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 93.98 29.21)
 		(size 49.53 34.29)
 		(exclude_from_sim no)
