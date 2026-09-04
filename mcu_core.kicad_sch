@@ -3961,6 +3961,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 124.46) (xy 279.4 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10fee80b-ea32-4668-a36b-875ae4163a29")
+	)
+	(wire
+		(pts
 			(xy 267.97 109.22) (xy 279.4 109.22)
 		)
 		(stroke
@@ -3998,6 +4008,16 @@
 			(type default)
 		)
 		(uuid "1ccd2a6f-d170-45bb-9407-68898fffa971")
+	)
+	(wire
+		(pts
+			(xy 281.94 127) (xy 279.4 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "201edd37-d14e-4c68-8da7-7ef4e4029f50")
 	)
 	(wire
 		(pts
@@ -4148,6 +4168,26 @@
 			(type default)
 		)
 		(uuid "4f1d0af0-adef-4ba4-a448-effba54514e5")
+	)
+	(wire
+		(pts
+			(xy 279.4 121.92) (xy 281.94 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5098e93a-8bb1-4b3f-9b1a-dba90ac26bf4")
+	)
+	(wire
+		(pts
+			(xy 267.97 127) (xy 269.24 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c735dc9-15ba-4e23-aac8-7ef8dc51dafa")
 	)
 	(wire
 		(pts
@@ -4401,6 +4441,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 124.46) (xy 269.24 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8d3684d-1c78-4fe8-952e-897d743c1b17")
+	)
+	(wire
+		(pts
 			(xy 36.83 133.35) (xy 53.34 133.35)
 		)
 		(stroke
@@ -4411,6 +4461,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 119.38) (xy 279.4 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4197af9-ba57-4d63-a634-0f2807b23c86")
+	)
+	(wire
+		(pts
 			(xy 52.07 146.05) (xy 53.34 146.05)
 		)
 		(stroke
@@ -4418,6 +4478,16 @@
 			(type default)
 		)
 		(uuid "b75764c8-70a9-409c-9cda-ee218af235e8")
+	)
+	(wire
+		(pts
+			(xy 267.97 121.92) (xy 269.24 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8387388-fe0b-4980-b7b5-eef52e1566cf")
 	)
 	(wire
 		(pts
@@ -4488,6 +4558,16 @@
 			(type default)
 		)
 		(uuid "d16337fb-9e38-490d-bbb3-871dd9789a73")
+	)
+	(wire
+		(pts
+			(xy 267.97 119.38) (xy 269.24 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d22c65c5-d794-443e-b71a-b735a9a29d40")
 	)
 	(wire
 		(pts
@@ -4603,6 +4683,54 @@
 			)
 		)
 	)
+	(global_label "TDI"
+		(shape input)
+		(at 281.94 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "357c0962-2b84-4be2-ac53-87e25ba8bfa3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 287.7676 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "TMS"
+		(shape input)
+		(at 281.94 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38d9a893-90a6-4994-8a95-4df07de168a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 288.5537 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "V_ADC"
 		(shape input)
 		(at 33.02 173.99 180)
@@ -4688,6 +4816,30 @@
 		(uuid "4db43089-8374-4da7-a0cd-fd17912a938b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 171.5323 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "TDO"
+		(shape input)
+		(at 281.94 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "628bd0b9-4b4d-4d5d-8689-f795d80ad629")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 288.4933 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4832,6 +4984,30 @@
 		(uuid "8d6c399e-6b73-4067-aa40-7ef9a99c2517")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 170.3833 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "TCK"
+		(shape input)
+		(at 281.94 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a91b5a73-ff7f-4f48-993b-a923456a6302")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 288.4328 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5269,6 +5445,166 @@
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
 					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 274.32 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "27bee0e8-fee2-4283-8cc5-5794084f55f4")
+		(property "Reference" "JP27"
+			(at 277.368 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 274.32 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 274.32 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2605153c-702b-487a-a0ca-12fe7f04e05d")
+		)
+		(pin "2"
+			(uuid "62a1e08f-91b5-40e3-a5f2-b8b79c037c76")
+		)
+		(instances
+			(project "Inverter"
+				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
+					(reference "JP27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 274.32 124.46 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2bc8db02-16c8-4b95-b9a2-9a4347ba559a")
+		(property "Reference" "JP29"
+			(at 277.368 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 274.32 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 274.32 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "684785df-2869-4b73-b1a4-72ac3a42a6a9")
+		)
+		(pin "2"
+			(uuid "cdcde7fa-df6a-438f-a7b3-29ea84f15c0b")
+		)
+		(instances
+			(project "Inverter"
+				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
+					(reference "JP29")
 					(unit 1)
 				)
 			)
@@ -8927,6 +9263,166 @@
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 274.32 119.38 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e099635f-e80f-4a2c-a7c2-495f37f590c5")
+		(property "Reference" "JP30"
+			(at 277.368 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 274.32 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 274.32 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f437b2d8-1f2f-4db2-9713-a65a4b3bbfa9")
+		)
+		(pin "2"
+			(uuid "30f4ef30-3743-495b-8a4f-f4b7eacac596")
+		)
+		(instances
+			(project "Inverter"
+				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
+					(reference "JP30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 274.32 127 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e36c43a6-9be7-4203-bce4-ea7f05eaea71")
+		(property "Reference" "JP28"
+			(at 277.368 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 274.32 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 274.32 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a732399-2f7a-453d-8070-f38225243909")
+		)
+		(pin "2"
+			(uuid "2ed0b7b4-2359-43b5-be36-e02116933de8")
+		)
+		(instances
+			(project "Inverter"
+				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
+					(reference "JP28")
 					(unit 1)
 				)
 			)
