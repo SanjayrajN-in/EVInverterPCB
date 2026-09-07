@@ -14,4 +14,6 @@
 	(lib (name "TMS5700714APGEQQ1R") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/TMS5700714APGEQQ1R.kicad_sym") (options "") (descr ""))
 	(lib (name "TCAN1042HGVDRBRQ1") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/TCAN1042HGVDRBRQ1.kicad_sym") (options "") (descr ""))
 	(lib (name "ISO7710QDRQ1") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/ISO7710QDRQ1.kicad_sym") (options "") (descr ""))
+	(lib (name "AMC3311QDWERQ1") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/AMC3311QDWERQ1.kicad_sym") (options "") (descr ""))
+	(lib (name "OPA388QDBVRQ1") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/OPA388QDBVRQ1.kicad_sym") (options "") (descr ""))
 )
