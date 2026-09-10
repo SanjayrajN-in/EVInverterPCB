@@ -782,8 +782,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "DCLinkConnector"
+				(at 0.254 5.334 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3032,8 +3032,8 @@
 		(uuid "979257e1-5ba1-4123-9355-36da334c2581")
 	)
 	(rectangle
-		(start 233.172 85.09)
-		(end 282.194 157.48)
+		(start 231.902 85.09)
+		(end 280.924 157.48)
 		(stroke
 			(width 0)
 			(type default)
@@ -3044,8 +3044,8 @@
 		(uuid "a6ef6757-cdd9-492f-8097-47acdc5b905c")
 	)
 	(rectangle
-		(start 192.278 157.48)
-		(end 231.14 85.09)
+		(start 191.008 157.48)
+		(end 229.87 85.09)
 		(stroke
 			(width 0)
 			(type default)
@@ -3102,7 +3102,7 @@
 	)
 	(text "VFO(I) - VFO in\nVFO(O) - VFO out"
 		(exclude_from_sim no)
-		(at 250.444 111.506 0)
+		(at 249.174 111.506 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3160,7 +3160,7 @@
 	)
 	(text "DC Link"
 		(exclude_from_sim no)
-		(at 201.676 88.9 0)
+		(at 200.406 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3226,10 +3226,22 @@
 		(uuid "23ae6833-e22e-4d01-bfbc-e35d1d9f28fb")
 	)
 	(junction
+		(at 210.82 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b1a8d40-a2d1-4a51-9372-46b2c4e5ec19")
+	)
+	(junction
 		(at 144.78 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2dbf7a4f-8703-4c3d-8b49-fae9850d272c")
+	)
+	(junction
+		(at 222.25 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3030166e-485c-4160-af87-0c4be0861950")
 	)
 	(junction
 		(at 144.78 100.33)
@@ -3262,13 +3274,13 @@
 		(uuid "64682838-49d7-4ae2-a914-a543c052c714")
 	)
 	(junction
-		(at 223.52 125.73)
+		(at 222.25 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67966ddb-f6b9-4994-9043-9ab48e00623c")
 	)
 	(junction
-		(at 212.09 125.73)
+		(at 210.82 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b1eb0d7-dde4-41f6-beb5-ad9eb96f751c")
@@ -3280,7 +3292,7 @@
 		(uuid "778b0777-3105-446f-b98e-059a7e6e9d42")
 	)
 	(junction
-		(at 200.66 125.73)
+		(at 199.39 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ee56f33-da49-4cfe-859a-b5b3b38f9dd4")
@@ -3316,7 +3328,13 @@
 		(uuid "c77a2fb7-21c5-4224-a4f2-99023cabd4c7")
 	)
 	(junction
-		(at 269.24 102.87)
+		(at 199.39 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf672b23-b9b2-412a-b53f-03df6d790a58")
+	)
+	(junction
+		(at 267.97 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da891753-2ea6-4116-b0c3-cf674dd6d8f1")
@@ -3334,7 +3352,7 @@
 		(uuid "f211229a-d06b-4a30-b8e0-c13288d825a0")
 	)
 	(junction
-		(at 261.62 102.87)
+		(at 260.35 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff8cd8ea-9477-42d5-b664-45dc61807b2b")
@@ -3401,7 +3419,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 125.73) (xy 200.66 134.62)
+			(xy 199.39 125.73) (xy 199.39 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3421,7 +3439,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 102.87) (xy 250.19 102.87)
+			(xy 246.38 102.87) (xy 248.92 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3448,6 +3466,16 @@
 			(type default)
 		)
 		(uuid "14d79178-3913-460c-88c8-41161abb2c90")
+	)
+	(wire
+		(pts
+			(xy 210.82 130.81) (xy 210.82 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17654f7d-45b0-40d5-bfa9-3dd040e793e8")
 	)
 	(wire
 		(pts
@@ -3488,6 +3516,16 @@
 			(type default)
 		)
 		(uuid "1ce05bbf-1d2d-4486-a982-95cbc9a7af43")
+	)
+	(wire
+		(pts
+			(xy 222.25 130.81) (xy 222.25 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf28473-973a-4b13-9a7e-b74ebc38fe9c")
 	)
 	(wire
 		(pts
@@ -3611,7 +3649,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 125.73) (xy 223.52 125.73)
+			(xy 220.98 125.73) (xy 222.25 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3671,7 +3709,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 101.6) (xy 269.24 102.87)
+			(xy 267.97 101.6) (xy 267.97 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3681,7 +3719,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 125.73) (xy 214.63 125.73)
+			(xy 210.82 125.73) (xy 213.36 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3721,6 +3759,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 130.81) (xy 200.66 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef316e5-674b-4d38-a13e-58c7898f8ff2")
+	)
+	(wire
+		(pts
 			(xy 115.57 67.31) (xy 116.84 67.31)
 		)
 		(stroke
@@ -3741,7 +3789,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 102.87) (xy 261.62 102.87)
+			(xy 256.54 102.87) (xy 260.35 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3791,7 +3839,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 125.73) (xy 223.52 134.62)
+			(xy 222.25 125.73) (xy 222.25 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3801,13 +3849,23 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 92.71) (xy 261.62 93.98)
+			(xy 260.35 92.71) (xy 260.35 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4d9d9b09-3f7a-49cf-adbd-9045f2a2e6fd")
+	)
+	(wire
+		(pts
+			(xy 199.39 130.81) (xy 199.39 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "538fb8e0-8d60-4046-82ad-6565580743e0")
 	)
 	(wire
 		(pts
@@ -3841,7 +3899,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 114.3) (xy 200.66 125.73)
+			(xy 199.39 114.3) (xy 199.39 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3871,7 +3929,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 102.87) (xy 269.24 102.87)
+			(xy 260.35 102.87) (xy 267.97 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3921,7 +3979,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 125.73) (xy 212.09 125.73)
+			(xy 208.28 125.73) (xy 210.82 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3951,7 +4009,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 125.73) (xy 212.09 132.08)
+			(xy 210.82 125.73) (xy 210.82 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4031,13 +4089,23 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 114.3) (xy 223.52 114.3)
+			(xy 214.63 114.3) (xy 222.25 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "719e6650-e288-4c76-ba3d-e093e7e55d56")
+	)
+	(wire
+		(pts
+			(xy 208.28 130.81) (xy 210.82 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72dde91a-2069-4686-8957-c429794b0d30")
 	)
 	(wire
 		(pts
@@ -4061,7 +4129,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 114.3) (xy 209.55 106.68)
+			(xy 208.28 114.3) (xy 208.28 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4391,7 +4459,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 114.3) (xy 223.52 125.73)
+			(xy 222.25 114.3) (xy 222.25 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4401,7 +4469,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 102.87) (xy 269.24 104.14)
+			(xy 267.97 102.87) (xy 267.97 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4471,6 +4539,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 130.81) (xy 222.25 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1811da9-da69-4fa8-9ef6-72160ec9932c")
+	)
+	(wire
+		(pts
 			(xy 76.2 69.85) (xy 78.74 69.85)
 		)
 		(stroke
@@ -4521,7 +4599,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 114.3) (xy 200.66 114.3)
+			(xy 208.28 114.3) (xy 199.39 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4661,7 +4739,17 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 111.76) (xy 269.24 113.03)
+			(xy 210.82 130.81) (xy 213.36 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da38e514-8382-4c0b-8433-39166113bebb")
+	)
+	(wire
+		(pts
+			(xy 267.97 111.76) (xy 267.97 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4681,7 +4769,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 101.6) (xy 261.62 102.87)
+			(xy 260.35 101.6) (xy 260.35 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4831,7 +4919,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 125.73) (xy 200.66 125.73)
+			(xy 200.66 125.73) (xy 199.39 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4841,7 +4929,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 114.3) (xy 215.9 106.68)
+			(xy 214.63 114.3) (xy 214.63 106.68)
 		)
 		(stroke
 			(width 0)
@@ -7109,7 +7197,7 @@
 	)
 	(global_label "VFO(I)"
 		(shape input)
-		(at 247.65 102.87 180)
+		(at 246.38 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7119,7 +7207,7 @@
 		)
 		(uuid "14ff8c90-0e8b-4761-aaf8-cfdd3bd3e182")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.8589 102.87 0)
+			(at 237.5889 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7157,7 +7245,7 @@
 	)
 	(global_label "-DCLink"
 		(shape input)
-		(at 223.52 134.62 270)
+		(at 222.25 134.62 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7167,7 +7255,7 @@
 		)
 		(uuid "21e67f7e-98b7-4e74-b1bb-a56fc45b229a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.52 145.5276 90)
+			(at 222.25 145.5276 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7301,7 +7389,7 @@
 	)
 	(global_label "VFO"
 		(shape input)
-		(at 269.24 101.6 90)
+		(at 267.97 101.6 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7311,7 +7399,7 @@
 		)
 		(uuid "3bdd03e8-bb80-48df-a077-02e5449bbc00")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.24 95.1071 90)
+			(at 267.97 95.1071 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7781,7 +7869,7 @@
 	)
 	(global_label "0"
 		(shape input)
-		(at 212.09 132.08 270)
+		(at 210.82 134.62 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7791,7 +7879,7 @@
 		)
 		(uuid "a64aa04a-3924-4e2e-81eb-790bfad26d70")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.09 136.2747 90)
+			(at 210.82 138.8147 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7973,7 +8061,7 @@
 	)
 	(global_label "+DCLink"
 		(shape input)
-		(at 200.66 134.62 270)
+		(at 199.39 134.62 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7983,7 +8071,7 @@
 		)
 		(uuid "fa901130-f0dc-4f9f-8e7a-3bcccf125886")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.66 145.5276 90)
+			(at 199.39 145.5276 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8485,7 +8573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a009dc3-dff8-4116-815c-b881b70c1b55")
-		(property "Reference" "C46"
+		(property "Reference" "C43"
 			(at 113.03 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8549,7 +8637,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/a04ca611-88f8-4dd4-bd17-835b578a5d1e"
-					(reference "C46")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -8567,7 +8655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1eda027f-ea17-411f-8895-22fc37dd60f2")
-		(property "Reference" "C39"
+		(property "Reference" "C40"
 			(at 55.88 100.7109 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8631,90 +8719,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/a04ca611-88f8-4dd4-bd17-835b578a5d1e"
-					(reference "C39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 205.74 125.73 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23c3b45f-a974-4d6f-b208-014e2907459d")
-		(property "Reference" "C34"
-			(at 203.5809 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Polarized"
-			(at 206.1209 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 126.6952 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 205.74 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "89c5c0a2-82d7-40d3-9b04-b668c733c981")
-		)
-		(pin "1"
-			(uuid "3d89dff5-7353-4f78-b8ef-d62e864f01b1")
-		)
-		(instances
-			(project "Inverter"
-				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/a04ca611-88f8-4dd4-bd17-835b578a5d1e"
-					(reference "C34")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -9204,7 +9209,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b49783f-79a9-4f08-95f7-82d37bf9bde1")
-		(property "Reference" "C48"
+		(property "Reference" "C52"
 			(at 137.16 187.198 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9214,7 +9219,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 137.16 189.738 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9266,7 +9271,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/a04ca611-88f8-4dd4-bd17-835b578a5d1e"
-					(reference "C48")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -9656,9 +9661,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 218.44 125.73 90)
-		(mirror x)
+		(lib_id "Device:C")
+		(at 204.47 130.81 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9666,32 +9670,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "462fecb8-e6bd-43cc-b1e5-34112414b8e8")
-		(property "Reference" "C35"
-			(at 216.2809 129.54 0)
+		(uuid "42a406ee-692b-4527-be9e-4e0c9638fe17")
+		(property "Reference" "C36"
+			(at 204.47 134.366 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 218.8209 129.54 0)
+		(property "Value" "2.2U"
+			(at 204.47 136.906 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 126.6952 0)
+			(at 208.28 129.8448 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9702,7 +9703,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 125.73 0)
+			(at 204.47 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9712,8 +9713,8 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 218.44 125.73 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 204.47 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9724,15 +9725,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "e60662c4-e010-4942-9d6d-ff0780c5d46e")
+			(uuid "80da07cd-efdc-4e12-a4c2-3ea41aabc0df")
 		)
 		(pin "1"
-			(uuid "e8a400e3-5f0a-473e-a258-a73817962844")
+			(uuid "d1f42c1a-c2d0-4609-88b3-3c151d78bad8")
 		)
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/a04ca611-88f8-4dd4-bd17-835b578a5d1e"
-					(reference "C35")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -9740,7 +9741,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 261.62 97.79 0)
+		(at 260.35 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9750,8 +9751,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46ef0c2f-03e2-41bf-8023-8b3073386afe")
-		(property "Reference" "R19"
-			(at 264.16 96.5199 0)
+		(property "Reference" "R37"
+			(at 262.89 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9762,7 +9763,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 264.16 99.0599 0)
+			(at 262.89 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9773,7 +9774,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.842 97.79 90)
+			(at 258.572 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9784,7 +9785,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 97.79 0)
+			(at 260.35 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9795,7 +9796,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 261.62 97.79 0)
+			(at 260.35 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9814,7 +9815,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/a04ca611-88f8-4dd4-bd17-835b578a5d1e"
-					(reference "R19")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -9831,7 +9832,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47dadbd8-95bb-4bc2-bd73-72f8c8746089")
-		(property "Reference" "C50"
+		(property "Reference" "C51"
 			(at 167.894 164.338 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9841,7 +9842,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 167.894 166.878 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9893,7 +9894,86 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/a04ca611-88f8-4dd4-bd17-835b578a5d1e"
-					(reference "C50")
+					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 217.17 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "484852e6-ad46-499b-9833-56ab9472ed48")
+		(property "Reference" "C37"
+			(at 217.17 134.366 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2"
+			(at 217.17 136.906 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 129.8448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 217.17 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e29a96b3-123e-40d3-afe7-ce66255274fa")
+		)
+		(pin "1"
+			(uuid "4c860cbb-4c47-4103-a3fc-1165332c0086")
+		)
+		(instances
+			(project "Inverter"
+				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/a04ca611-88f8-4dd4-bd17-835b578a5d1e"
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -9911,7 +9991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b170d34-ecd8-4b1e-a3b4-5b7e7129e7a5")
-		(property "Reference" "C45"
+		(property "Reference" "C49"
 			(at 162.56 140.5889 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9975,88 +10055,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/a04ca611-88f8-4dd4-bd17-835b578a5d1e"
-					(reference "C45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EVInverter:DCBus")
-		(at 212.09 100.33 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4dad8e14-2d9f-4265-8129-e4b0bc1c6fe0")
-		(property "Reference" "U13"
-			(at 212.7249 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 212.09 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 212.09 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "01b5fa2c-0036-42c8-99b1-c02a92896725")
-		)
-		(pin "1"
-			(uuid "99ea4f10-bd4f-4396-b6c5-cff0144c2991")
-		)
-		(instances
-			(project "Inverter"
-				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/a04ca611-88f8-4dd4-bd17-835b578a5d1e"
-					(reference "U13")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -10064,7 +10063,7 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 269.24 113.03 0)
+		(at 267.97 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10075,7 +10074,7 @@
 		(fields_autoplaced yes)
 		(uuid "4eba4695-4e3d-4582-bfb3-ebe8c901d545")
 		(property "Reference" "#PWR0132"
-			(at 269.24 119.38 0)
+			(at 267.97 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10086,7 +10085,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 269.24 118.11 0)
+			(at 267.97 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10096,7 +10095,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 113.03 0)
+			(at 267.97 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10107,7 +10106,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 113.03 0)
+			(at 267.97 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10118,7 +10117,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 269.24 113.03 0)
+			(at 267.97 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10152,7 +10151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6325d72c-2159-4a11-b723-14581670b6f8")
-		(property "Reference" "C41"
+		(property "Reference" "C47"
 			(at 162.56 105.0289 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10216,7 +10215,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/a04ca611-88f8-4dd4-bd17-835b578a5d1e"
-					(reference "C41")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -10296,6 +10295,86 @@
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/a04ca611-88f8-4dd4-bd17-835b578a5d1e"
 					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 204.47 125.73 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7324c834-5c65-466b-8b77-67866cf0e2fb")
+		(property "Reference" "C54"
+			(at 204.47 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22u"
+			(at 204.47 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 124.7648 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 204.47 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e65b15d9-6900-4ce4-8a9e-c094e2d5a56f")
+		)
+		(pin "2"
+			(uuid "4102fd01-49d4-4557-80a9-466fc27a3d16")
+		)
+		(instances
+			(project "Inverter"
+				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/a04ca611-88f8-4dd4-bd17-835b578a5d1e"
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -10390,7 +10469,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8633a794-2aa3-491a-9627-83ab482b3e46")
-		(property "Reference" "R16"
+		(property "Reference" "R35"
 			(at 118.11 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10452,7 +10531,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/a04ca611-88f8-4dd4-bd17-835b578a5d1e"
-					(reference "R16")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -10568,7 +10647,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "Footprint:SOIC127P600X175-8N"
 			(at 158.75 267.64 0)
 			(hide yes)
 			(show_name no)
@@ -10698,6 +10777,86 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 217.17 125.73 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95978ff6-f7b2-4b2b-a7ad-053e971ea789")
+		(property "Reference" "C55"
+			(at 217.17 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22u"
+			(at 217.17 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 124.7648 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 217.17 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1a783769-d8d4-4ace-b0fa-1bb43c01b683")
+		)
+		(pin "1"
+			(uuid "b325e505-f680-4b8f-aca8-e6af442ff288")
+		)
+		(instances
+			(project "Inverter"
+				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/a04ca611-88f8-4dd4-bd17-835b578a5d1e"
+					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 135.89 162.56 90)
 		(unit 1)
 		(body_style 1)
@@ -10707,7 +10866,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "970e5f3e-4685-45ba-b49a-50de2ec701f9")
-		(property "Reference" "C47"
+		(property "Reference" "C50"
 			(at 132.334 164.338 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10717,7 +10876,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 132.334 166.878 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10769,15 +10928,15 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/a04ca611-88f8-4dd4-bd17-835b578a5d1e"
-					(reference "C47")
+					(reference "C50")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5VA")
-		(at 261.62 92.71 0)
+		(lib_id "EVInverter:DCBus")
+		(at 210.82 100.33 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10785,31 +10944,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a98f7c68-8700-4d2c-8705-024f2be0083f")
-		(property "Reference" "#PWR0130"
-			(at 261.62 96.52 0)
-			(hide yes)
+		(uuid "9c154c87-3827-43ad-94e2-66cd1ac38693")
+		(property "Reference" "U1"
+			(at 217.17 99.0599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "+5VA"
-			(at 261.62 87.63 0)
+		(property "Value" "DCLinkConnector"
+			(at 204.216 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 92.71 0)
+			(at 210.82 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10820,7 +10979,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 92.71 0)
+			(at 210.82 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "23fbbe61-1689-42fc-9ba8-0fd206719fe8")
+		)
+		(pin "1"
+			(uuid "45d448b2-c116-4863-9dfc-ce94891d5c5d")
+		)
+		(instances
+			(project "Inverter"
+				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/a04ca611-88f8-4dd4-bd17-835b578a5d1e"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VA")
+		(at 260.35 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a98f7c68-8700-4d2c-8705-024f2be0083f")
+		(property "Reference" "#PWR0130"
+			(at 260.35 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 260.35 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10831,7 +11071,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VA\""
-			(at 261.62 92.71 0)
+			(at 260.35 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10864,7 +11104,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1678c29-8813-47cf-88a1-8f381a89418f")
-		(property "Reference" "R17"
+		(property "Reference" "R34"
 			(at 120.65 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10926,7 +11166,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/a04ca611-88f8-4dd4-bd17-835b578a5d1e"
-					(reference "R17")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -10944,7 +11184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b365d6c7-11bc-482f-ad6d-c9ebff4a9b24")
-		(property "Reference" "C40"
+		(property "Reference" "C44"
 			(at 148.59 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11008,7 +11248,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/a04ca611-88f8-4dd4-bd17-835b578a5d1e"
-					(reference "C40")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -11330,7 +11570,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 254 102.87 270)
+		(at 252.73 102.87 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11340,8 +11580,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4ed1ae5-4454-42f6-8c81-1e62c2e39197")
-		(property "Reference" "R18"
-			(at 254 96.52 90)
+		(property "Reference" "R36"
+			(at 252.73 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11351,7 +11591,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 254 99.06 90)
+			(at 252.73 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11361,7 +11601,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 101.092 90)
+			(at 252.73 101.092 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11372,7 +11612,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 102.87 0)
+			(at 252.73 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11383,7 +11623,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 254 102.87 0)
+			(at 252.73 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11402,7 +11642,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/a04ca611-88f8-4dd4-bd17-835b578a5d1e"
-					(reference "R18")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -11420,7 +11660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cae79c07-3bdf-4c11-a97d-4a55a5703415")
-		(property "Reference" "C38"
+		(property "Reference" "C39"
 			(at 44.45 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11484,7 +11724,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/a04ca611-88f8-4dd4-bd17-835b578a5d1e"
-					(reference "C38")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -11501,7 +11741,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d18e5d93-21e6-41ba-b939-b56a08506d3a")
-		(property "Reference" "C37"
+		(property "Reference" "C42"
 			(at 90.932 102.616 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11565,7 +11805,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/a04ca611-88f8-4dd4-bd17-835b578a5d1e"
-					(reference "C37")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -11573,7 +11813,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 144.78 140.97 0)
+		(at 144.78 140.97 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11583,7 +11823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5518b48-7754-4291-96c0-fa176b62cefd")
-		(property "Reference" "C44"
+		(property "Reference" "C46"
 			(at 148.59 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11591,7 +11831,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "C"
@@ -11602,11 +11842,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 145.7452 144.78 0)
+			(at 143.8148 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11647,7 +11887,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/a04ca611-88f8-4dd4-bd17-835b578a5d1e"
-					(reference "C44")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -11971,7 +12211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7985e8b-d2b0-4a7a-a1df-825f10227341")
-		(property "Reference" "C36"
+		(property "Reference" "C41"
 			(at 73.66 102.8701 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12035,7 +12275,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/a04ca611-88f8-4dd4-bd17-835b578a5d1e"
-					(reference "C36")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -12122,7 +12362,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 269.24 107.95 0)
+		(at 267.97 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12132,8 +12372,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e25c3cbf-e8fa-4c71-ac98-fff0e03295b3")
-		(property "Reference" "C49"
-			(at 273.05 106.6799 0)
+		(property "Reference" "C53"
+			(at 271.78 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12144,7 +12384,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 273.05 109.2199 0)
+			(at 271.78 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12155,7 +12395,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.2052 111.76 0)
+			(at 268.9352 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12166,7 +12406,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 107.95 0)
+			(at 267.97 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12177,7 +12417,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 269.24 107.95 0)
+			(at 267.97 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12196,7 +12436,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/a04ca611-88f8-4dd4-bd17-835b578a5d1e"
-					(reference "C49")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -12292,7 +12532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e771c783-f2fc-473f-9e67-7374c441187d")
-		(property "Reference" "C42"
+		(property "Reference" "C45"
 			(at 148.59 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12356,7 +12596,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/a04ca611-88f8-4dd4-bd17-835b578a5d1e"
-					(reference "C42")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -12773,7 +13013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb8c3837-f5a2-4ff8-ae72-606650c9428f")
-		(property "Reference" "C43"
+		(property "Reference" "C48"
 			(at 162.56 122.8089 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12837,7 +13077,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/a04ca611-88f8-4dd4-bd17-835b578a5d1e"
-					(reference "C43")
+					(reference "C48")
 					(unit 1)
 				)
 			)

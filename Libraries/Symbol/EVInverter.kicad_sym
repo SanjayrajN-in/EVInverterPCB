@@ -18,8 +18,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "DCLinkConnector"
+			(at 0.254 5.334 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

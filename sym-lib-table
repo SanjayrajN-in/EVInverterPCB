@@ -16,4 +16,5 @@
 	(lib (name "ISO7710QDRQ1") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/ISO7710QDRQ1.kicad_sym") (options "") (descr ""))
 	(lib (name "AMC3311QDWERQ1") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/AMC3311QDWERQ1.kicad_sym") (options "") (descr ""))
 	(lib (name "OPA388QDBVRQ1") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/OPA388QDBVRQ1.kicad_sym") (options "") (descr ""))
+	(lib (name "F2800157QPMQ1") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/F2800157QPMQ1.kicad_sym") (options "") (descr ""))
 )
