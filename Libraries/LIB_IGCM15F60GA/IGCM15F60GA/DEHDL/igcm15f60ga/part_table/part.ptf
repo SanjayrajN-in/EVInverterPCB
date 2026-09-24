@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'IGCM15F60GA'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Infineon", "IGCM15F60GA" (!) = "", "IGCM15F60GA", "Other", "726-IGCM15F60GA", "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IGCM15F60GA?qs=r1cIj14McZcih4cckRrbqQ%3D%3D", "Motor / Motion / Ignition Controllers & Drivers MINI DUAL-IN-LINE 15A/600V W/NTC 24PIN", "https://www.infineon.com/dgdl/Infineon-IGCM15F60GA-DS-v02_09-EN.pdf?fileId=5546d4624fb7fef2014fcb15c0597867"
+END_PART
+
+END.

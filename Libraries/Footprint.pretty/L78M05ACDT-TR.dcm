@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L78M05ACDT-TR
+D Voltage Regulator 5V 0.5A DPAK L78M05ACDT-TR, Voltage Regulator, 0.5A 5 V, +/-2%, 3-Pin D-PAK
+K
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00000447.pdf
+$ENDCMP
+#
+#End Doc Library

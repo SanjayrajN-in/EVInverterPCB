@@ -1,0 +1,226 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "IGCM15F60GA"
+   (description "Motor / Motion / Ignition Controllers & Drivers MINI DUAL-IN-LINE 15A/600V W/NTC 24PIN")
+   (family "ANA")
+   (package "IGCM15F60GA")
+   (attribute "Datasheet Link" "https://www.infineon.com/dgdl/Infineon-IGCM15F60GA-DS-v02_09-EN.pdf?fileId=5546d4624fb7fef2014fcb15c0597867")
+   (attribute "Mouser Part Number" "726-IGCM15F60GA")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IGCM15F60GA?qs=r1cIj14McZcih4cckRrbqQ%3D%3D")
+   (attribute "Manufacturer_Name" "Infineon")
+   (attribute "Manufacturer_Part_Number" "IGCM15F60GA")
+   (gate
+    (symbol "IGCM15F60GA")
+    (pin "VS(U)" 1 PS)
+    (pin "VC(U)" 2 PS)
+    (pin "VS(V)" 3 PS)
+    (pin "VB(V)" 4 PS)
+    (pin "VS(W)" 5 PS)
+    (pin "VB(W)" 6 PS)
+    (pin "HIN(U)" 7 PS)
+    (pin "HIN(V)" 8 PS)
+    (pin "HIN(W)" 9 PS)
+    (pin "LIN(U)" 10 PS)
+    (pin "LIN(V)" 11 PS)
+    (pin "LIN(W)" 12 PS)
+    (pin "VDD" 13 PS)
+    (pin "VFO" 14 PS)
+    (pin "ITRIP" 15 PS)
+    (pin "VSS" 16 PS)
+    (pin "NW" 17 PS)
+    (pin "NV" 18 PS)
+    (pin "NU" 19 PS)
+    (pin "W" 20 PS)
+    (pin "V" 21 PS)
+    (pin "U" 22 PS)
+    (pin "P" 23 PS)
+    (pin "NC" 24 NC)
+   )
+  )
+  (symbol "IGCM15F60GA"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1100 100) (pt 1100 -1200) (pt 200 -1200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -600) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -700) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -800) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -900) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -1000) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -1100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -600) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -700) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -800) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -900) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -1000) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -1100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "IGCM15F60GA"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed true)
+      (pt -18 10.5)
+      (pt 18 10.5)
+      (pt 18 -10.5)
+      (pt -18 -10.5)
+      (pt -18 10.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt -18 10.5)
+      (pt -18 -10.5)
+      (pt 18 -10.5)
+      (pt 18 10.5)
+      (pt -18 10.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (circle
+      (pt 14.861 -17.363) (pt 15.191 -17.363)
+     )
+    )
+   )
+   (leg 1 (pt 15.1 -15.8) (padstack 0))
+   (leg 2 (pt 13.1 -12.8) (padstack 0))
+   (leg 3 (pt 10.1 -15.8) (padstack 0))
+   (leg 4 (pt 8.5 -12.8) (padstack 0))
+   (leg 5 (pt 5.1 -15.8) (padstack 0))
+   (leg 6 (pt 3.5 -12.8) (padstack 0))
+   (leg 7 (pt -0.3 -15.8) (padstack 0))
+   (leg 8 (pt -1.9 -12.8) (padstack 0))
+   (leg 9 (pt -3.5 -15.8) (padstack 0))
+   (leg 10 (pt -5.1 -12.8) (padstack 0))
+   (leg 11 (pt -6.7 -15.8) (padstack 0))
+   (leg 12 (pt -8.3 -12.8) (padstack 0))
+   (leg 13 (pt -9.9 -15.8) (padstack 0))
+   (leg 14 (pt -11.5 -12.8) (padstack 0))
+   (leg 15 (pt -13.1 -15.8) (padstack 0))
+   (leg 16 (pt -15.1 -12.8) (padstack 0))
+   (leg 17 (pt -16.555 12.8) (padstack 0))
+   (leg 18 (pt -11.825 12.8) (padstack 0))
+   (leg 19 (pt -7.095 12.8) (padstack 0))
+   (leg 20 (pt -2.365 12.8) (padstack 0))
+   (leg 21 (pt 2.365 12.8) (padstack 0))
+   (leg 22 (pt 7.095 12.8) (padstack 0))
+   (leg 23 (pt 11.825 12.8) (padstack 0))
+   (leg 24 (pt 16.555 12.8) (padstack 0))
+   (padstack 0
+    (hole 1.19)
+    (plated true)
+    (pad (layer TCOP) (round 1.79))
+    (pad (layer INNER) (round 1.79))
+    (pad (layer BCOP) (round 1.79))
+   )
+   (model "IGCM15F60GA.stp"
+    (euler 90 0 180)
+    (offset 0 0.10000000149011612 3.4100000858306885)
+   )
+  )
+ )
+)

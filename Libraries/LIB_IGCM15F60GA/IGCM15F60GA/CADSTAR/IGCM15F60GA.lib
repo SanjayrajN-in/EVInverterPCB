@@ -1,0 +1,16 @@
+.IGCM15F60GA :1 ;Motor / Motion / Ignition Controllers & Drivers MINI DUAL-IN-LINE 15A/600V W/NTC 24PIN
+IGCM15F60GA
+*STM IC
+*NGS
+*PLB 1="VS(U)" 2="VC(U)" 3="VS(V)" 4="VB(V)" 5="VS(W)" 6="VB(W)" 7="HIN(U)" 8="HIN(V)" 9="HIN(W)" 10="LIN(U)" 11="LIN(V)" 12="LIN(W)" 13="VDD" 14="VFO" 15="ITRIP" 16="VSS" 17="NW" 18="NV" 19="NU" 20="W" 21="V" 22="U" 23="P" 24="NC"
+*MXP 24
+*DFN IGCM15F60GA
+~!Mouser Part Number (726-IGCM15F60GA)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IGCM15F60GA?qs=r1cIj14McZcih4cckRrbqQ%3D%3D)
+~!Manufacturer_Name (Infineon)
+~!Manufacturer_Part_Number (IGCM15F60GA)
+~!Link Datasheet (https://www.infineon.com/dgdl/Infineon-IGCM15F60GA-DS-v02_09-EN.pdf?fileId=5546d4624fb7fef2014fcb15c0597867)
+~!Height (-)
+~!3D_Model (IGCM15F60GA)
+IGCM15F60GA
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 21.1!U 22.1!U 23.1!U 24.1!U 

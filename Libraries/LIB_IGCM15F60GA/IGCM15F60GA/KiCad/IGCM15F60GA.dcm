@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IGCM15F60GA
+D Motor / Motion / Ignition Controllers & Drivers MINI DUAL-IN-LINE 15A/600V W/NTC 24PIN
+K
+F https://www.infineon.com/dgdl/Infineon-IGCM15F60GA-DS-v02_09-EN.pdf?fileId=5546d4624fb7fef2014fcb15c0597867
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "IGCM15F60GA"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "IGCM15F60GA")
+        (spec "default")
+    )
+)

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "IGCM15F60GA"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-11-30-19:47:11)
+    (mountForm default
+        (footprintRef "IGCM15F60GA")
+        (spec "System")
+    )
+)
