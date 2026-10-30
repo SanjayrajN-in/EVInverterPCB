@@ -1307,6 +1307,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 53.848 55.88)
@@ -1355,6 +1470,18 @@
 			)
 		)
 		(uuid "863215d7-6da6-4480-9b32-032dbe2337c8")
+	)
+	(junction
+		(at 190.5 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c8103a3-86f1-49a6-9cd2-ac8ec6f61900")
+	)
+	(junction
+		(at 215.9 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "207e3aa7-90df-4251-ae21-3f82b4ce8f06")
 	)
 	(junction
 		(at 59.69 83.82)
@@ -1414,16 +1541,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 96.52) (xy 194.31 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16473866-ee3d-43d9-bfdb-e48f4daea2a9")
-	)
-	(wire
-		(pts
 			(xy 59.69 81.28) (xy 59.69 83.82)
 		)
 		(stroke
@@ -1431,6 +1548,16 @@
 			(type default)
 		)
 		(uuid "23b55201-be86-4baa-88b6-ca6d980eca1b")
+	)
+	(wire
+		(pts
+			(xy 190.5 77.47) (xy 191.77 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2657f5a1-7583-4a3c-ab8d-7526c42fe501")
 	)
 	(wire
 		(pts
@@ -1544,6 +1671,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 77.47) (xy 217.17 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71f5bd1b-c5ef-47db-8fa6-4f9ebf46f5ce")
+	)
+	(wire
+		(pts
 			(xy 134.62 76.2) (xy 138.43 76.2)
 		)
 		(stroke
@@ -1584,7 +1721,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 77.47) (xy 191.77 77.47)
+			(xy 187.96 77.47) (xy 190.5 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1714,16 +1851,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 96.52) (xy 180.34 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d05867c5-c3b0-415a-b9ce-c28985eb704d")
-	)
-	(wire
-		(pts
 			(xy 128.27 78.74) (xy 134.62 78.74)
 		)
 		(stroke
@@ -1754,7 +1881,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 77.47) (xy 217.17 77.47)
+			(xy 213.36 77.47) (xy 215.9 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1830,55 +1957,7 @@
 			)
 		)
 	)
-	(global_label "CANL"
-		(shape input)
-		(at 194.31 96.52 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "262ee2b3-7dfd-4527-9c9b-fbe30986b0f8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.31 88.8176 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "CANH"
-		(shape input)
-		(at 180.34 96.52 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "345fc9cf-c48a-4dcc-9faa-f2834cb727c5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.34 88.5152 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "CANTX"
+	(global_label "CAN1TX"
 		(shape input)
 		(at 80.01 88.9 180)
 		(fields_autoplaced yes)
@@ -1890,7 +1969,7 @@
 		)
 		(uuid "53e00872-8ddc-4c94-bca4-919b6029733b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.1586 88.9 0)
+			(at 69.9491 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1950,7 +2029,7 @@
 			)
 		)
 	)
-	(global_label "CANRX"
+	(global_label "CAN1RX"
 		(shape input)
 		(at 208.28 97.79 90)
 		(fields_autoplaced yes)
@@ -1962,7 +2041,7 @@
 		)
 		(uuid "bbccf9d8-fa44-4125-9c64-bd04e80eb6e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.28 88.6362 90)
+			(at 208.28 87.4267 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1974,7 +2053,7 @@
 			)
 		)
 	)
-	(global_label "CANTX"
+	(global_label "CAN1TX"
 		(shape input)
 		(at 222.25 97.79 90)
 		(fields_autoplaced yes)
@@ -1986,7 +2065,7 @@
 		)
 		(uuid "cad12632-d403-4168-ada2-de7aa1ede274")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.25 88.9386 90)
+			(at 222.25 87.7291 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1998,7 +2077,7 @@
 			)
 		)
 	)
-	(global_label "CANRX"
+	(global_label "CAN1RX"
 		(shape input)
 		(at 80.01 99.06 180)
 		(fields_autoplaced yes)
@@ -2010,7 +2089,7 @@
 		)
 		(uuid "f26bdab3-f64f-4bfd-a45d-93432bf75f2f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.8562 99.06 0)
+			(at 69.6467 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2054,7 +2133,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 182.88 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2103,6 +2182,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 190.5 77.47 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "190717ba-433d-4d94-bd2a-c25037056bd2")
+		(property "Reference" "#FLG08"
+			(at 190.5 79.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 190.5 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 190.5 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f6a2381-accc-465f-aab7-919e20e1f125")
+		)
+		(instances
+			(project "Inverter"
+				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/08cc59a0-c768-4034-bf28-7cf786972499"
+					(reference "#FLG08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 208.28 101.6 180)
 		(unit 1)
@@ -2114,7 +2271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f96ce97-8d80-48d5-9fdd-a630b9d81af7")
-		(property "Reference" "TP10"
+		(property "Reference" "TP30"
 			(at 210.82 103.6319 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2136,7 +2293,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 203.2 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -2175,7 +2332,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/08cc59a0-c768-4034-bf28-7cf786972499"
-					(reference "TP10")
+					(reference "TP30")
 					(unit 1)
 				)
 			)
@@ -2193,7 +2350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fa14e18-9b40-42d3-b4ae-9c46c8dc8c7f")
-		(property "Reference" "TP11"
+		(property "Reference" "TP31"
 			(at 224.79 103.6319 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2215,7 +2372,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 217.17 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -2254,86 +2411,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/08cc59a0-c768-4034-bf28-7cf786972499"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 194.31 101.6 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "321abe21-90a6-4f24-a874-b2c5287a0013")
-		(property "Reference" "TP9"
-			(at 196.85 103.6319 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 196.85 106.1719 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 194.31 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "127af575-ccc3-49b2-887a-322478637c80")
-		)
-		(instances
-			(project "Inverter"
-				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/08cc59a0-c768-4034-bf28-7cf786972499"
-					(reference "TP9")
+					(reference "TP31")
 					(unit 1)
 				)
 			)
@@ -2373,7 +2451,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 136.652 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -2453,7 +2531,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 153.67 85.3948 0)
 			(hide yes)
 			(show_name no)
@@ -2847,7 +2925,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 77.7748 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -2927,7 +3005,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 208.28 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3009,7 +3087,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 60.6552 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3052,6 +3130,84 @@
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/08cc59a0-c768-4034-bf28-7cf786972499"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 215.9 77.47 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b687e58d-f66c-46bc-b788-2ad102e82da4")
+		(property "Reference" "#FLG09"
+			(at 215.9 79.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 215.9 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 215.9 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a15c2383-36a3-4032-b9dd-ae534c3ab168")
+		)
+		(instances
+			(project "Inverter"
+				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/08cc59a0-c768-4034-bf28-7cf786972499"
+					(reference "#FLG09")
 					(unit 1)
 				)
 			)
@@ -3169,7 +3325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 136.652 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -3315,85 +3471,6 @@
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/08cc59a0-c768-4034-bf28-7cf786972499"
 					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 180.34 101.6 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "edd0abd5-d308-4381-bb85-8ccc88db014f")
-		(property "Reference" "TP8"
-			(at 182.88 103.6319 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 182.88 106.1719 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 180.34 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "01ec9b7f-3a90-44f4-a086-e7c6f41aa239")
-		)
-		(instances
-			(project "Inverter"
-				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/08cc59a0-c768-4034-bf28-7cf786972499"
-					(reference "TP8")
 					(unit 1)
 				)
 			)

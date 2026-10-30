@@ -25,6 +25,26 @@
 		)
 		(uuid "02e161d9-64fa-4b62-a221-80478bc556f0")
 	)
+	(text_box "CIPOS Power Converter"
+		(exclude_from_sim no)
+		(at 36.195 77.47 0)
+		(size 48.895 25.4)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "23f57157-f4ef-4562-b8f2-22398241def6")
+	)
 	(text_box "TMS570LS0714"
 		(exclude_from_sim no)
 		(at 95.25 31.496 0)
@@ -104,6 +124,26 @@
 			)
 		)
 		(uuid "9f14e299-a14a-40de-96ca-3733563096fc")
+	)
+	(text_box "CAN TX/RX"
+		(exclude_from_sim no)
+		(at 206.375 30.48 0)
+		(size 43.815 30.48)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "fcbe695c-b364-452f-aa54-f112bafc3b8e")
 	)
 	(sheet
 		(at 204.47 29.21)

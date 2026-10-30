@@ -2146,7 +2146,7 @@
 	(text_box "Core MCU controls the Induction motor of the vehicle, Communicating with the ECU of the 4 wheels Vehicle. MCU synchronizes with the ECU and then ICU engine to control speed and torque of the Induction motor."
 		(exclude_from_sim no)
 		(at 21.59 19.05 0)
-		(size 58.42 15.24)
+		(size 58.42 11.684)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2163,6 +2163,12 @@
 		)
 		(uuid "ae546f9d-d353-4685-b87a-d9d64724c44d")
 	)
+	(junction
+		(at 102.87 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d01c5d84-945c-4d1b-9b32-d28225f1a1e8")
+	)
 	(wire
 		(pts
 			(xy 154.94 62.23) (xy 154.94 63.5)
@@ -2172,6 +2178,16 @@
 			(type default)
 		)
 		(uuid "037d74aa-5285-42d9-83ee-310fa50c4609")
+	)
+	(wire
+		(pts
+			(xy 132.08 152.4) (xy 132.08 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "089d2b54-4554-47cf-a50e-347f9bd500a2")
 	)
 	(wire
 		(pts
@@ -2215,6 +2231,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 96.52) (xy 111.76 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1747cb79-5272-498a-a9cb-b6f749862273")
+	)
+	(wire
+		(pts
 			(xy 139.7 62.23) (xy 139.7 63.5)
 		)
 		(stroke
@@ -2222,16 +2248,6 @@
 			(type default)
 		)
 		(uuid "19a58214-795e-412d-948b-1b48ba111b1f")
-	)
-	(wire
-		(pts
-			(xy 100.33 99.06) (xy 111.76 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2061905b-9b77-45e9-899b-bd4da5066947")
 	)
 	(wire
 		(pts
@@ -2245,13 +2261,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 104.14) (xy 111.76 104.14)
+			(xy 102.87 121.92) (xy 111.76 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f5273cb-02e2-4143-b25b-50373df80d2e")
+		(uuid "330ec37c-a4fe-4654-95b3-0df7aab7082c")
 	)
 	(wire
 		(pts
@@ -2265,13 +2281,23 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 152.4) (xy 154.94 162.56)
+			(xy 154.94 152.4) (xy 154.94 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3d34d02a-6a78-48a1-9305-dcc59ab87a50")
+	)
+	(wire
+		(pts
+			(xy 110.49 104.14) (xy 111.76 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eb568c0-18ca-4726-94d6-3dc9feb2449e")
 	)
 	(wire
 		(pts
@@ -2325,6 +2351,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 49.53) (xy 147.32 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47fedfe5-be95-40cb-bfa9-6449f2aee619")
+	)
+	(wire
+		(pts
 			(xy 165.1 88.9) (xy 167.64 88.9)
 		)
 		(stroke
@@ -2365,6 +2401,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 99.06) (xy 111.76 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d35f14c-9b65-4bfe-a301-62dd8150be1c")
+	)
+	(wire
+		(pts
 			(xy 165.1 121.92) (xy 179.07 121.92)
 		)
 		(stroke
@@ -2372,6 +2418,16 @@
 			(type default)
 		)
 		(uuid "673c76f0-8036-431f-bbde-92115df16a3c")
+	)
+	(wire
+		(pts
+			(xy 90.17 96.52) (xy 100.33 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6967f3f3-a334-49b6-992f-d64f79062215")
 	)
 	(wire
 		(pts
@@ -2392,16 +2448,6 @@
 			(type default)
 		)
 		(uuid "6d57e7da-d8ca-4a4c-be94-249d2ef76081")
-	)
-	(wire
-		(pts
-			(xy 147.32 49.53) (xy 147.32 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f9ec96e-7000-4148-9eb2-511462c9c670")
 	)
 	(wire
 		(pts
@@ -2455,6 +2501,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 62.23) (xy 147.32 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ac74b4a-a06c-461b-82fa-47852dfb41a2")
+	)
+	(wire
+		(pts
 			(xy 139.7 152.4) (xy 139.7 162.56)
 		)
 		(stroke
@@ -2505,16 +2561,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 152.4) (xy 132.08 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "889d24e7-816c-4066-8f39-fbb498564e33")
-	)
-	(wire
-		(pts
 			(xy 149.86 152.4) (xy 149.86 153.67)
 		)
 		(stroke
@@ -2525,13 +2571,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 101.6) (xy 111.76 101.6)
+			(xy 110.49 101.6) (xy 111.76 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c77b350-b2eb-4055-b7bb-210b40e55047")
+		(uuid "91d759d3-acac-499c-b927-11e44fdad6f2")
 	)
 	(wire
 		(pts
@@ -2572,6 +2618,16 @@
 			(type default)
 		)
 		(uuid "95c3227c-842e-432f-b46d-fe67c30dde11")
+	)
+	(wire
+		(pts
+			(xy 90.17 101.6) (xy 100.33 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cc3a3e3-c39f-4037-836f-05cbbd644b08")
 	)
 	(wire
 		(pts
@@ -2635,6 +2691,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 104.14) (xy 100.33 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a42784e3-c4d2-4ffb-a6fd-00ec3d650a3b")
+	)
+	(wire
+		(pts
 			(xy 176.53 109.22) (xy 179.07 109.22)
 		)
 		(stroke
@@ -2682,6 +2748,16 @@
 			(type default)
 		)
 		(uuid "ac580588-70cf-4635-a122-10de8035e3ba")
+	)
+	(wire
+		(pts
+			(xy 102.87 121.92) (xy 102.87 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae068196-a1bf-4dd8-8283-9dce07a959c9")
 	)
 	(wire
 		(pts
@@ -2815,7 +2891,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 121.92) (xy 111.76 121.92)
+			(xy 100.33 121.92) (xy 102.87 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2955,16 +3031,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 96.52) (xy 111.76 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f733fe72-633a-4af7-885c-0321c8c815fb")
-	)
-	(wire
-		(pts
 			(xy 179.07 114.3) (xy 176.53 114.3)
 		)
 		(stroke
@@ -2995,31 +3061,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "eQEPS"
-		(shape input)
-		(at 100.33 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify right)
-		)
-		(uuid "17dcd41a-6498-4891-9392-8b03b8fe9a48")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.2972 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -3121,7 +3162,7 @@
 			)
 		)
 	)
-	(global_label "PWMC1"
+	(global_label "PWMC2"
 		(shape input)
 		(at 127 48.26 90)
 		(fields_autoplaced yes)
@@ -3268,6 +3309,30 @@
 			)
 		)
 	)
+	(global_label "CANSTB"
+		(shape input)
+		(at 154.94 168.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "52e6c5e4-dfbd-48e3-a962-ba5558cb5ceb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.94 179.0314 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "XRSn"
 		(shape input)
 		(at 97.79 88.9 180)
@@ -3340,9 +3405,33 @@
 			)
 		)
 	)
+	(global_label "AD_REF"
+		(shape input)
+		(at 102.87 137.16 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6543291c-bf40-4844-aaad-780e0bb40d10")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.87 146.979 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "eQEPA"
 		(shape input)
-		(at 100.33 104.14 180)
+		(at 90.17 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3353,7 +3442,7 @@
 		)
 		(uuid "676544ea-8ae8-4870-af01-3a6b6575f182")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.4181 104.14 0)
+			(at 81.2581 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3461,6 +3550,30 @@
 			)
 		)
 	)
+	(global_label "VFO(O)"
+		(shape input)
+		(at 147.32 49.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9af27f1c-e2ae-41c7-9266-47f1de619ee1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.32 40.0132 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "PWMA1"
 		(shape input)
 		(at 149.86 49.53 90)
@@ -3512,7 +3625,7 @@
 	)
 	(global_label "eQEPZ"
 		(shape input)
-		(at 100.33 101.6 180)
+		(at 90.17 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3523,7 +3636,7 @@
 		)
 		(uuid "cb48bc75-e4fb-49c6-be3d-9df1432cc24f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.2972 101.6 0)
+			(at 81.1372 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3635,7 +3748,7 @@
 	)
 	(global_label "eQEPB"
 		(shape input)
-		(at 100.33 96.52 180)
+		(at 90.17 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3646,7 +3759,7 @@
 		)
 		(uuid "f9104fa9-32c6-4ac9-8cc2-25a3c4baee79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.2367 96.52 0)
+			(at 81.0767 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3714,7 +3827,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 157.48 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -3773,7 +3886,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0aac32e3-2dfd-4d4b-9a4f-3b42ea1cdf67")
-		(property "Reference" "TP22"
+		(property "Reference" "TP5"
 			(at 84.582 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3794,7 +3907,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 91.44 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3833,7 +3946,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
-					(reference "TP22")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -3850,7 +3963,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c434b7d-aad5-41e8-a47f-c202d02c54d3")
-		(property "Reference" "TP25"
+		(property "Reference" "TP8"
 			(at 127 169.418 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3871,7 +3984,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 121.92 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -3910,7 +4023,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
-					(reference "TP25")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -3948,7 +4061,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 149.86 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4007,7 +4120,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "130fafe3-d6d2-4f49-88a0-39e7539dee9b")
-		(property "Reference" "TP41"
+		(property "Reference" "TP20"
 			(at 144.78 42.672 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4028,7 +4141,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 149.86 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4067,7 +4180,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
-					(reference "TP41")
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -4084,7 +4197,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1744b4a9-5f72-4fb5-81de-f5eb03b6d41c")
-		(property "Reference" "TP39"
+		(property "Reference" "TP19"
 			(at 185.928 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4105,7 +4218,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 179.07 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4144,7 +4257,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
-					(reference "TP39")
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -4161,7 +4274,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c22bbdf-e4f9-40fa-9c7e-d2ed626f5384")
-		(property "Reference" "TP29"
+		(property "Reference" "TP12"
 			(at 144.78 169.418 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4182,7 +4295,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 139.7 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -4221,7 +4334,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
-					(reference "TP29")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -4238,7 +4351,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e0101dd-0a7f-4663-baa4-626313bc4876")
-		(property "Reference" "JP17"
+		(property "Reference" "JP18"
 			(at 128.27 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4259,7 +4372,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 127 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4301,7 +4414,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
-					(reference "JP17")
+					(reference "JP18")
 					(unit 1)
 				)
 			)
@@ -4386,83 +4499,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 147.32 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "270c035a-36c2-433f-93c4-881c2a4e7c46")
-		(property "Reference" "TP40"
-			(at 147.32 42.672 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 149.86 46.228 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 147.32 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c8c7eb91-f2ea-45f0-a0eb-13a7d2e641ae")
-		)
-		(instances
-			(project "Inverter"
-				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
-					(reference "TP40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 179.07 104.14 270)
 		(unit 1)
 		(body_style 1)
@@ -4472,7 +4508,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a51a500-293d-49bf-81b1-0fe1ab616971")
-		(property "Reference" "TP36"
+		(property "Reference" "TP18"
 			(at 185.928 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4493,7 +4529,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 179.07 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4532,7 +4568,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
-					(reference "TP36")
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -4898,7 +4934,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 171.45 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5055,7 +5091,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 171.45 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5114,7 +5150,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "428be2aa-cf6f-4fb2-b1fb-08f033f5b68f")
-		(property "Reference" "TP30"
+		(property "Reference" "TP13"
 			(at 147.32 169.418 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5135,7 +5171,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 142.24 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -5174,7 +5210,87 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
-					(reference "TP30")
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 102.87 132.08 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "49ecc0d3-4ec2-4d9a-819a-4ef48b79351a")
+		(property "Reference" "JP22"
+			(at 104.14 129.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 106.68 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 102.87 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 97.79 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f808e1f3-537e-480a-8c6e-07466bf61bab")
+		)
+		(pin "2"
+			(uuid "e1dbd514-d191-4004-8814-fab504806a2d")
+		)
+		(instances
+			(project "Inverter"
+				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
+					(reference "JP22")
 					(unit 1)
 				)
 			)
@@ -5268,7 +5384,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "529bf349-5a0b-455e-a54c-76947b68d27f")
-		(property "Reference" "TP32"
+		(property "Reference" "TP14"
 			(at 157.48 169.418 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5289,7 +5405,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 152.4 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -5328,7 +5444,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
-					(reference "TP32")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -5367,7 +5483,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 150.622 157.48 90)
 			(hide yes)
 			(show_name no)
@@ -5426,7 +5542,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58e94e90-5a53-4c2d-a6db-2da82053cb5c")
-		(property "Reference" "TP35"
+		(property "Reference" "TP17"
 			(at 185.928 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5447,7 +5563,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 179.07 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -5486,7 +5602,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
-					(reference "TP35")
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -5503,7 +5619,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5fa6ddc5-6e22-447e-9c5a-e41a01d3d431")
-		(property "Reference" "TP21"
+		(property "Reference" "TP4"
 			(at 84.582 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5524,7 +5640,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 91.44 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5563,7 +5679,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
-					(reference "TP21")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -5681,7 +5797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 148.082 157.48 90)
 			(hide yes)
 			(show_name no)
@@ -5761,7 +5877,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 171.45 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5820,7 +5936,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d185de8-d399-4e45-933f-0a73a82ccbb4")
-		(property "Reference" "TP27"
+		(property "Reference" "TP10"
 			(at 137.16 169.418 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5841,7 +5957,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 132.08 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -5880,7 +5996,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
-					(reference "TP27")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -5976,7 +6092,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75bf25b2-ccec-47cd-929f-b48d025d334d")
-		(property "Reference" "TP42"
+		(property "Reference" "TP21"
 			(at 142.24 42.672 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5997,7 +6113,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 147.32 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6036,7 +6152,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
-					(reference "TP42")
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -6132,7 +6248,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ce1113a-ae1b-4bee-959b-54e18088675a")
-		(property "Reference" "JP19"
+		(property "Reference" "JP20"
 			(at 123.19 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6153,7 +6269,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 121.92 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6195,7 +6311,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
-					(reference "JP19")
+					(reference "JP20")
 					(unit 1)
 				)
 			)
@@ -6212,7 +6328,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7dc84305-0502-44cd-8fff-a27138b0d0f5")
-		(property "Reference" "TP34"
+		(property "Reference" "TP16"
 			(at 185.928 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6233,7 +6349,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 179.07 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6272,7 +6388,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
-					(reference "TP34")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -6310,7 +6426,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 121.92 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -6369,7 +6485,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a2c888e-4f1d-47ea-8ac8-db8cdf34b650")
-		(property "Reference" "TP23"
+		(property "Reference" "TP6"
 			(at 84.582 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6390,7 +6506,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 91.44 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6429,7 +6545,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
-					(reference "TP23")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -6545,7 +6661,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 124.46 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -6604,7 +6720,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f7cca92-fb6e-4561-8000-45173cd6c15f")
-		(property "Reference" "TP24"
+		(property "Reference" "TP7"
 			(at 84.582 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6625,7 +6741,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 91.44 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6664,7 +6780,87 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
-					(reference "TP24")
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 105.41 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "91914fe6-3731-46df-83b4-cd7b42afedfe")
+		(property "Reference" "JP23"
+			(at 102.362 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 105.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 105.41 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 105.41 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d509f66a-a6e2-4b4e-b6cd-3eae6be7d10c")
+		)
+		(pin "2"
+			(uuid "35cfd01c-75f3-495c-8216-a7d16dc36f37")
+		)
+		(instances
+			(project "Inverter"
+				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
+					(reference "JP23")
 					(unit 1)
 				)
 			)
@@ -6681,7 +6877,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9386579c-f118-4d21-9ecb-e70e463d7333")
-		(property "Reference" "TP47"
+		(property "Reference" "TP22"
 			(at 119.38 42.672 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6702,7 +6898,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 124.46 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6741,7 +6937,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
-					(reference "TP47")
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -6826,6 +7022,86 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 105.41 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9ca7e663-3f30-4aeb-bf16-aa1be28c3bfd")
+		(property "Reference" "JP25"
+			(at 102.362 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 105.41 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 105.41 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 105.41 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08c75225-b9b9-45e1-9e1c-ff99a80cf5e4")
+		)
+		(pin "2"
+			(uuid "96f82349-ea5c-424e-a7be-f03414116831")
+		)
+		(instances
+			(project "Inverter"
+				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
+					(reference "JP25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 137.16 57.15 270)
 		(unit 1)
 		(body_style 1)
@@ -6835,7 +7111,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a788603e-f30d-4a94-a634-a6f3ad70d8ba")
-		(property "Reference" "JP16"
+		(property "Reference" "JP17"
 			(at 138.43 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6856,7 +7132,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 137.16 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6898,7 +7174,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
-					(reference "JP16")
+					(reference "JP17")
 					(unit 1)
 				)
 			)
@@ -6936,7 +7212,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 154.94 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7016,7 +7292,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 105.41 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7075,7 +7351,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7dff278-fbbf-42e4-b9f2-b7ac63422246")
-		(property "Reference" "TP20"
+		(property "Reference" "TP2"
 			(at 83.312 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7096,7 +7372,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 90.17 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -7135,7 +7411,87 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
-					(reference "TP20")
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 132.08 161.29 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bbfe6121-4cdf-431d-84a6-f6d395a91e78")
+		(property "Reference" "JP28"
+			(at 133.35 158.242 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 135.89 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 132.08 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 127 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "808c8477-48a1-4d70-a0fb-09c142242dfc")
+		)
+		(pin "2"
+			(uuid "e164fb1c-c3c7-4a96-854a-5b7357c4fb35")
+		)
+		(instances
+			(project "Inverter"
+				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
+					(reference "JP28")
 					(unit 1)
 				)
 			)
@@ -7152,7 +7508,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc418bbb-86c7-4074-a3f8-86dbc3b4596e")
-		(property "Reference" "JP18"
+		(property "Reference" "JP19"
 			(at 125.73 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7173,7 +7529,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 124.46 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7215,7 +7571,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
-					(reference "JP18")
+					(reference "JP19")
 					(unit 1)
 				)
 			)
@@ -7253,7 +7609,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 105.41 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7302,6 +7658,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 147.32 57.15 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c4c7d7ae-bf29-4b58-bbab-d9ffd39946ed")
+		(property "Reference" "JP15"
+			(at 148.59 54.102 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 151.13 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 147.32 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 142.24 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a2f5bae8-c00b-42d5-a4ce-80c6eb38a9e6")
+		)
+		(pin "2"
+			(uuid "524a3ae8-d7e1-4f72-8552-2af963f9b666")
+		)
+		(instances
+			(project "Inverter"
+				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
+					(reference "JP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 134.62 162.56 180)
 		(unit 1)
@@ -7312,7 +7748,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c6e96c6b-d599-4188-883b-f81cd8075034")
-		(property "Reference" "TP26"
+		(property "Reference" "TP9"
 			(at 134.62 169.418 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7333,7 +7769,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 129.54 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -7372,7 +7808,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
-					(reference "TP26")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -7389,7 +7825,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "caeda871-34dc-4b6a-b4d4-5f6438b9ec2f")
-		(property "Reference" "JP15"
+		(property "Reference" "JP16"
 			(at 140.97 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7410,7 +7846,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 139.7 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7452,7 +7888,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
-					(reference "JP15")
+					(reference "JP16")
 					(unit 1)
 				)
 			)
@@ -7569,7 +8005,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 171.45 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7705,7 +8141,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4c85ec9-c848-4d24-ae54-67d350d8c97e")
-		(property "Reference" "TP33"
+		(property "Reference" "TP15"
 			(at 185.928 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7726,7 +8162,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 179.07 127 0)
 			(hide yes)
 			(show_name no)
@@ -7765,7 +8201,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
-					(reference "TP33")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -7803,7 +8239,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 105.41 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7883,7 +8319,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 152.4 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7932,6 +8368,163 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 91.44 99.06 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dd775182-e6ba-4287-a125-f4f4d8ee6e0b")
+		(property "Reference" "TP3"
+			(at 84.582 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 88.138 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 91.44 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 91.44 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "323cba3c-0aa9-4a60-bfae-d9b445be5519")
+		)
+		(instances
+			(project "Inverter"
+				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 105.41 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ddc4855d-6a78-4907-92ee-2b74ad4826b8")
+		(property "Reference" "JP24"
+			(at 102.362 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 105.41 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 105.41 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 105.41 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "750a25b8-3379-478f-8733-084c99c31ad8")
+		)
+		(pin "2"
+			(uuid "f1f7d499-df97-4b55-8cf2-35ee81bc46e4")
+		)
+		(instances
+			(project "Inverter"
+				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
+					(reference "JP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 172.72 83.82 0)
 		(unit 1)
@@ -7963,7 +8556,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 172.72 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8101,7 +8694,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2cdd8af-5361-4569-b502-a48cf2e3a5a8")
-		(property "Reference" "TP19"
+		(property "Reference" "TP1"
 			(at 83.312 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8122,7 +8715,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 90.17 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -8161,7 +8754,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
-					(reference "TP19")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -8248,83 +8841,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 154.94 162.56 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f58b270c-8048-4f4a-aa49-c38961056cd9")
-		(property "Reference" "TP31"
-			(at 154.94 169.418 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 152.4 165.862 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 154.94 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1d4febed-be04-4953-a967-c0a4abda5f37")
-		)
-		(instances
-			(project "Inverter"
-				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
-					(reference "TP31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 139.7 162.56 180)
 		(unit 1)
 		(body_style 1)
@@ -8334,7 +8850,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f58b5c67-8017-43dd-a4e2-8f9dc2ed51b8")
-		(property "Reference" "TP28"
+		(property "Reference" "TP11"
 			(at 139.7 169.418 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8355,7 +8871,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 134.62 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -8394,7 +8910,7 @@
 		(instances
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
-					(reference "TP28")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
