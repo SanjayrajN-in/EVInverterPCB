@@ -24,4 +24,6 @@
 	(lib (name "EVM-3YSX50B53") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/EVM-3YSX50B53.kicad_sym") (options "") (descr ""))
 	(lib (name "TPSM33610S5QRDNRQ1") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/TPSM33610S5QRDNRQ1.kicad_sym") (options "") (descr ""))
 	(lib (name "VO617A-3X018T") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/VO617A-3X018T.kicad_sym") (options "") (descr ""))
+	(lib (name "SMBJ30CA") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/SMBJ30CA.kicad_sym") (options "") (descr ""))
+	(lib (name "TCAN1042HGVDRQ1") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/TCAN1042HGVDRQ1.kicad_sym") (options "") (descr ""))
 )

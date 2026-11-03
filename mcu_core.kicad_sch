@@ -2130,19 +2130,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Data-Sheet"
-		(exclude_from_sim no)
-		(at 166.878 132.588 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(href "https://www.ti.com/lit/ds/symlink/tms320f2800155-q1.pdf?ts=1788845093472&ref_url=https%253A%252F%252Fwww.mouser.in%252F")
-		)
-		(uuid "a4cdaaca-6615-482d-9466-9671351707f2")
-	)
 	(text_box "Core MCU controls the Induction motor of the vehicle, Communicating with the ECU of the 4 wheels Vehicle. MCU synchronizes with the ECU and then ICU engine to control speed and torque of the Induction motor."
 		(exclude_from_sim no)
 		(at 21.59 19.05 0)
