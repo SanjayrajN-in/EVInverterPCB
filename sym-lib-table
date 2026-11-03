@@ -26,4 +26,5 @@
 	(lib (name "VO617A-3X018T") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/VO617A-3X018T.kicad_sym") (options "") (descr ""))
 	(lib (name "SMBJ30CA") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/SMBJ30CA.kicad_sym") (options "") (descr ""))
 	(lib (name "TCAN1042HGVDRQ1") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/TCAN1042HGVDRQ1.kicad_sym") (options "") (descr ""))
+	(lib (name "XL-5050RGBC-WS2812B") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/XL-5050RGBC-WS2812B.kicad_sym") (options "") (descr ""))
 )

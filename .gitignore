@@ -1,0 +1,17 @@
+# KiCad local settings
+*.kicad_prl
+*.lck
+
+# Temporary files
+*.bak
+*.tmp
+*~
+
+# Automatic backups
+Inverter-backups/
+
+# KiCad history
+.history/
+
+*.bak
+sym-lib-table.bak

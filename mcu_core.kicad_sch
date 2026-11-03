@@ -2188,16 +2188,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 49.53) (xy 142.24 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13b82892-8ebf-431a-b811-16448f8ec552")
-	)
-	(wire
-		(pts
 			(xy 165.1 83.82) (xy 167.64 83.82)
 		)
 		(stroke
@@ -2245,6 +2235,16 @@
 			(type default)
 		)
 		(uuid "21b896b1-d305-418e-8808-9b6d3a3b3e27")
+	)
+	(wire
+		(pts
+			(xy 142.24 62.23) (xy 142.24 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ab8733-bf40-40f8-b8fb-82715ecb713e")
 	)
 	(wire
 		(pts
@@ -2605,6 +2605,16 @@
 			(type default)
 		)
 		(uuid "95c3227c-842e-432f-b46d-fe67c30dde11")
+	)
+	(wire
+		(pts
+			(xy 142.24 48.26) (xy 142.24 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9685dd8d-9609-4013-a7bd-7d0f357c50a2")
 	)
 	(wire
 		(pts
@@ -3550,6 +3560,30 @@
 		(uuid "9af27f1c-e2ae-41c7-9266-47f1de619ee1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 147.32 40.0132 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "DIN_LED"
+		(shape input)
+		(at 142.24 48.26 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9bdc12e9-929c-4d18-9b4b-3e0cc3b8d56d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.24 37.6548 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6069,83 +6103,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 142.24 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "75bf25b2-ccec-47cd-929f-b48d025d334d")
-		(property "Reference" "TP21"
-			(at 142.24 42.672 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 144.78 46.228 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 147.32 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 142.24 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c1152039-a353-4177-a0b6-95c517bbc40f")
-		)
-		(instances
-			(project "Inverter"
-				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
-					(reference "TP21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V2")
 		(at 109.22 91.44 90)
 		(unit 1)
@@ -7082,6 +7039,86 @@
 			(project "Inverter"
 				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
 					(reference "JP25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 142.24 57.15 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a3a05fe5-6266-43d7-b903-b27edd103a07")
+		(property "Reference" "JP29"
+			(at 143.51 54.102 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 146.05 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 142.24 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 137.16 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6cd05d2b-9b1d-4125-9b0d-23b9272cb096")
+		)
+		(pin "2"
+			(uuid "23cc2203-53a9-4bc1-918b-ad71359a7da9")
+		)
+		(instances
+			(project "Inverter"
+				(path "/557dbdfe-f200-4573-9e2e-e58e9c4cef92/b946f370-3766-475f-a1a7-65be21592719"
+					(reference "JP29")
 					(unit 1)
 				)
 			)
