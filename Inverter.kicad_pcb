@@ -5091,13 +5091,13 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "155dfca6-2026-42f1-a350-6a6fdf2d9980")
-		(at 150.9375 53.895 180)
+		(at 149.8575 54.165 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R5"
 			(at 0.0175 -1.42 0)
 			(layer "F.SilkS")
-			(uuid "acc6c89c-308f-4532-88dd-0882bf5e616e")
+			(uuid "61f60c3b-92d6-4916-a0d2-8bd438c533f8")
 			(effects
 				(font
 					(size 1 1)
@@ -5108,7 +5108,7 @@
 		(property "Value" "2.2k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "7fbe886b-308a-4bc8-98fd-8cf44b2adf08")
+			(uuid "5b79efdc-78bd-4f0e-bdb6-65be97c8573b")
 			(effects
 				(font
 					(size 1 1)
@@ -5120,7 +5120,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a6cdb857-a787-4f3f-8251-e14f2bf1cba9")
+			(uuid "9da79c4a-a521-4747-989e-0cee4677ef85")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5131,7 +5131,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "327bebbc-57d1-4749-8f33-bdbb2031fcb3")
+			(uuid "ab6d6994-c220-4e24-9612-150c8bf53aa3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12778,13 +12778,13 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "46f919e2-c0da-4dc0-b55e-f6da244ba6cb")
-		(at 149.9113 59.3)
+		(at 149.9 61.301961)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J9"
 			(at 0 -2.38 0)
 			(layer "F.SilkS")
-			(uuid "a6db3e71-a91f-49d7-91ba-3ffd8b854af1")
+			(uuid "d759be01-dd29-4c6c-bb42-8bab63eac0e9")
 			(effects
 				(font
 					(size 1 1)
@@ -12795,7 +12795,7 @@
 		(property "Value" "Conn_01x02_Pin"
 			(at 0 4.92 0)
 			(layer "F.Fab")
-			(uuid "6b1e3b94-1ed6-44fd-8c8e-32789e9a6900")
+			(uuid "eedc84fc-2eaa-46fe-8cf0-c87bc5b943a0")
 			(effects
 				(font
 					(size 1 1)
@@ -12807,7 +12807,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6e7a4fa0-36b2-457a-8a08-acba6b5a25d8")
+			(uuid "715f85a3-400f-4454-8708-9c9b42d5426c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12818,7 +12818,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9b9c6f6b-0fce-4eae-afc0-c1f43090610e")
+			(uuid "5bd6c33e-0108-4842-b906-637780892c7c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33663,13 +33663,13 @@
 	(footprint "Footprint:LED_1206"
 		(layer "F.Cu")
 		(uuid "b23a28d5-17d8-484a-bdd3-a92200d06bfd")
-		(at 154.09 52.1225 90)
+		(at 153.01 52.3925 90)
 		(descr "LED SMD 1206")
 		(tags "LED handsolder")
 		(property "Reference" "D6"
 			(at -3.1425 0.03 0)
 			(layer "F.SilkS")
-			(uuid "712e9073-6c0d-464b-95f3-defebba8ba75")
+			(uuid "27bdc426-ebd8-4dca-a0a4-ef035538195d")
 			(effects
 				(font
 					(size 1 1)
@@ -33680,7 +33680,7 @@
 		(property "Value" "LED"
 			(at 0 1.82 90)
 			(layer "F.Fab")
-			(uuid "9c218bef-d1c4-4e77-b5d4-412d973a7739")
+			(uuid "6205299b-e651-4f0e-b84e-81994892d46c")
 			(effects
 				(font
 					(size 1 1)
@@ -33692,7 +33692,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "64f9b0ee-09d8-478c-9464-f3ce084443a8")
+			(uuid "aa648100-9dcf-491b-8490-a32e6fc617d4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33703,7 +33703,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8ed2940f-ce4f-4e27-bd70-14762a0b2576")
+			(uuid "79c01d14-202b-499d-87bb-1a4f4fd5162d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40262,7 +40262,7 @@
 	(footprint "Library:PushButton"
 		(layer "F.Cu")
 		(uuid "d68da1a9-f4d1-4495-a3f1-43bce7f39607")
-		(at 72.635 36.99)
+		(at 73.235 36.96)
 		(property "Reference" "SW1"
 			(at 0 -0.5 0)
 			(unlocked yes)
